@@ -1,10 +1,12 @@
 import {Button, Container, Nav, Navbar as NavbarBS}  from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import { useShoppingCart } from "../context/ShoppingCartContext";
 
-export interface IAppProps {
-}
 
-export function NavBar (props: IAppProps) {
+export function NavBar () {
+
+  const { openCart, cartQuantity } = useShoppingCart()
+
   return (
     <NavbarBS sticky="top" className="bg-white shadow-sm mb-3">
       <Container>
@@ -20,7 +22,10 @@ export function NavBar (props: IAppProps) {
             </Nav.Link>
         </Nav>
 
-      <Button  
+      {cartQuantity > 0 &&
+
+      <Button
+      onClick={openCart}  
       style={{width: "3rem", height: "3rem", position: "relative"}}
       variant="outline-primary"
       className="rounded-circle"
@@ -46,9 +51,10 @@ export function NavBar (props: IAppProps) {
         
         }}
         
-        >3</div>
+        >{cartQuantity}</div>
 
       </Button>
+}
 
       </Container>
     </NavbarBS>

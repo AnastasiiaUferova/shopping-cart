@@ -2,10 +2,7 @@ import { Col, Row } from "react-bootstrap";
 import storeItems from "../data/items.json";
 import { StoreItem } from "../components/StoreItem";
 
-export interface Props {
-}
-
-export function Store (props: Props) {
+export function Store () {
   return (
     <div>
       <h1>Store</h1>
