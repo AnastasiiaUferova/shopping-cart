@@ -8,17 +8,17 @@ Project made with webdevsimplified YT tutorial: shopping cart made with TypeScri
 
 ## Functionality
 
-* Add items to the cart;
-* Delete items from the cart;
-* Open a side bar with shopping cart
+- Add items to the cart;
+- Delete items from the cart;
+- Open a side bar with shopping cart
 
 ## Technologies used
 
-* React.js Functional Components;
-* React routing;
-* Hooks (useState, useEffect, useContext, custom hooks);
-* Bootstrap;
-* TypeScript
+- React.js Functional Components;
+- React routing;
+- Hooks (useState, useEffect, useContext, custom hooks);
+- Bootstrap;
+- TypeScript
 
 ## Installation instructions:
 
@@ -27,7 +27,7 @@ git clone https://github.com/AnastasiiaUferova/shopping-cart
 
 cd shopping-cart
 
-npm install 
+npm install
 
 npm run build
 
