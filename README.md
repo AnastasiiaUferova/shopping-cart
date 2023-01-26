@@ -1,6 +1,6 @@
 # React.js 'Shopping Cart' app
 
-## [Check out the project on GitHub Pages](https://AnastasiiaUferova.github.io/film-search)
+## [Check out the project on Vercel] (https://shopping-cart-drab-mu.vercel.app/store)
 
 ## Description
 
@@ -33,6 +33,3 @@ npm run build
 
 npm run dev
 ```
-
-## Link to the project
-https://AnastasiiaUferova.github.io/film-search
