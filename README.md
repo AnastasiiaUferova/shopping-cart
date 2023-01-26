@@ -1,6 +1,6 @@
 # React.js 'Shopping Cart' app
 
-## [Check out the project on Vercel] (https://shopping-cart-drab-mu.vercel.app/store)
+## [Check out the project on Vercel](https://shopping-cart-drab-mu.vercel.app/store)
 
 ## Description
 
